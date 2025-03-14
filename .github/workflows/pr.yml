@@ -3,12 +3,11 @@ name: Pull Request Build Check Workflow
 on:
   pull_request:
     branches:
-      - main # or the branch you want to target with the PR
+      - main # Adjust the target branch as needed
     paths:
       - "**/*.js"
-      - "**/*.jsx"
       - "**/*.ts"
-      - "**/*.tsx"
+      - "**/*.svelte"
       - "**/*.json"
       - "**/*.css"
       - "**/*.scss"
@@ -24,19 +23,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-
-      - name: Cache npm dependencies
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          cache: "npm" # Change to "yarn" or "pnpm" if needed
 
       - name: Install dependencies
-        run: |
-          npm install  # Or `yarn install` if you're using Yarn
+        run: npm install # Change to `pnpm install` or `yarn install` if needed
 
       - name: Build the app
-        run: |
-          npm run build  # Or your preferred build command (e.g., `yarn build`)
+        run: npm run build # Change if your build command differs (e.g., `vite build`)

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "description": "A high-precision wireless mouse with ergonomic design.",
+    "price": 29.99,
+    "category": "Electronics",
+    "stock": 150
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Headphones",
+    "description": "Noise-cancelling over-ear headphones with Bluetooth connectivity.",
+    "price": 99.99,
+    "category": "Electronics",
+    "stock": 75
+  },
+  {
+    "id": 3,
+    "name": "Mechanical Keyboard",
+    "description": "A durable mechanical keyboard with customizable RGB lighting.",
+    "price": 79.99,
+    "category": "Electronics",
+    "stock": 50
+  },
+  {
+    "id": 4,
+    "name": "Smartphone Stand",
+    "description": "Adjustable stand for smartphones and tablets.",
+    "price": 19.99,
+    "category": "Accessories",
+    "stock": 200
+  },
+  {
+    "id": 5,
+    "name": "USB-C Hub",
+    "description": "Multi-port USB-C hub with HDMI, USB 3.0, and SD card reader.",
+    "price": 49.99,
+    "category": "Electronics",
+    "stock": 100
+  },
+  {
+    "id": 6,
+    "name": "Portable Charger",
+    "description": "10,000mAh portable charger with fast charging capabilities.",
+    "price": 39.99,
+    "category": "Electronics",
+    "stock": 120
+  },
+  {
+    "id": 7,
+    "name": "Fitness Tracker",
+    "description": "Waterproof fitness tracker with heart rate monitor and GPS.",
+    "price": 59.99,
+    "category": "Wearables",
+    "stock": 80
+  },
+  {
+    "id": 8,
+    "name": "Smartwatch",
+    "description": "Smartwatch with customizable watch faces and fitness tracking.",
+    "price": 149.99,
+    "category": "Wearables",
+    "stock": 60
+  },
+  {
+    "id": 9,
+    "name": "Laptop Sleeve",
+    "description": "Protective laptop sleeve with padded interior and zipper closure.",
+    "price": 24.99,
+    "category": "Accessories",
+    "stock": 180
+  },
+  {
+    "id": 10,
+    "name": "Wireless Earbuds",
+    "description": "True wireless earbuds with charging case and touch controls.",
+    "price": 69.99,
+    "category": "Electronics",
+    "stock": 90
+  },
+  {
+    "id": 11,
+    "name": "Gaming Mouse Pad",
+    "description": "Large gaming mouse pad with non-slip rubber base.",
+    "price": 14.99,
+    "category": "Accessories",
+    "stock": 130
+  },
+  {
+    "id": 12,
+    "name": "4K Monitor",
+    "description": "27-inch 4K UHD monitor with HDR support and slim bezels.",
+    "price": 299.99,
+    "category": "Electronics",
+    "stock": 40
+  },
+  {
+    "id": 13,
+    "name": "External Hard Drive",
+    "description": "1TB external hard drive with USB 3.0 connectivity.",
+    "price": 59.99,
+    "category": "Electronics",
+    "stock": 110
+  },
+  {
+    "id": 14,
+    "name": "Webcam",
+    "description": "1080p HD webcam with built-in microphone and privacy cover.",
+    "price": 49.99,
+    "category": "Electronics",
+    "stock": 70
+  },
+  {
+    "id": 15,
+    "name": "Desk Lamp",
+    "description": "LED desk lamp with adjustable brightness and color temperature.",
+    "price": 34.99,
+    "category": "Home Office",
+    "stock": 140
+  }
+]

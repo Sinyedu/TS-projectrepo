@@ -1,19 +1,16 @@
 <script>
-  import Counter from "./lib/Counter.svelte";
+  import Checkout from "./lib/CheckoutPage.svelte";
+  import ProductList from "./lib/ProductList.svelte";
 </script>
 
 <main>
-  <h1>Vite + Svelte</h1>
-
-  <div class="card">
-    <Counter />
-  </div>
-
-  <p class="read-the-docs">Click on the Vite and Svelte logos to learn more</p>
+  <h1>Welcome to Our Store</h1>
+  <ProductList />
+  <Checkout />
 </main>
 
 <style>
-  .read-the-docs {
-    color: #888;
+  main {
+    padding: 1rem;
   }
 </style>
